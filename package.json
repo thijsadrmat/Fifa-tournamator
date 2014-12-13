@@ -1,0 +1,28 @@
+{
+  "name": "Fifa-tournamator",
+  "version": "0.0.1",
+  "description": "Fifa tournamator lets you create tournaments for fifa 15",
+  "main": "index.js",
+  "scripts": {
+    "test": "FifaTournamator creating tournamants"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thijsadrmat/Fifa-tournamator.git"
+  },
+  "keywords": [
+    "Fifa",
+    "tournamator",
+    "tournament",
+    "creator"
+  ],
+  "author": "Matthijs Adriaanse",
+  "license": "The MIT License",
+  "bugs": {
+    "url": "https://github.com/thijsadrmat/Fifa-tournamator/issues"
+  },
+  "homepage": "https://github.com/thijsadrmat/Fifa-tournamator",
+  "dependencies": {
+    "express": "^4.10.6"
+  }
+}
