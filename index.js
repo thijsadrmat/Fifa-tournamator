@@ -8,6 +8,9 @@
     app.use('/webroot', function (req, res, next) {
         next();
     });
+    app.get('/', function(req, res){
+        res.sendFile(__dirname + '/webroot/index.html');
+    });
     app.use('/tournament', tournament);
     
     
@@ -17,4 +20,13 @@
         
         console.log('Example app listening at http://%s:%s', host, port);
     });
+    
+    app.on('connecting', function (){
+        console.log('stating to connect');
+    })
+    .on('connected', function (){
+        console.log(' connected to the database');
+    });
+    
+    
 }());
